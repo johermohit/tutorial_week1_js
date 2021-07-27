@@ -1,0 +1,28 @@
+{
+    "python.linting.enabled": true,
+    "python.analysis.typeshedPaths": [
+        ".micropy\\micropy-cli\\frozen",
+        ".micropy\\BradenM-micropy-stubs-7696565\\frozen",
+        ".micropy\\micropy-cli\\stubs",
+        ".micropy\\LED_flash"
+    ],
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.extraPaths": [
+        ".vscode\\Pico-Stub\\stubs"
+    ],
+    "python.jediEnabled": false,
+    "python.autoComplete.extraPaths": [
+        ".micropy\\micropy-cli\\frozen",
+        ".micropy\\BradenM-micropy-stubs-7696565\\frozen",
+        ".micropy\\micropy-cli\\stubs",
+        ".micropy\\LED_flash"
+    ],
+    "python.autoComplete.typeshedPaths": [
+        ".micropy\\micropy-cli\\frozen",
+        ".micropy\\BradenM-micropy-stubs-7696565\\frozen",
+        ".micropy\\micropy-cli\\stubs",
+        ".micropy\\LED_flash"
+    ],
+    "python.linting.pylintEnabled": true
+}
